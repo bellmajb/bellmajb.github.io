@@ -1,2 +1,2 @@
-# Mod6New
-This Solves Model 6 and Finds the Optimal PRC given parameters to be pulsed.
+# Github.io
+This is my github.io page. I'm not sure what that means yet.
