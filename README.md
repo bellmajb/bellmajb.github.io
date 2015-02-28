@@ -1,4 +1,3 @@
 # bellmajb.github.io
-This is my github.io page. I'm not sure what that means yet.
-
--JBOT
+Here is all of the information for my personal website. A big thanks to Bootstrap for the great template!
+-Jacob Bellman
