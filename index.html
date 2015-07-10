@@ -421,11 +421,11 @@ section {
 	  </p> 
       <p>
 	  The main focus of my dissertation is on phase response in a circadian ODE oscillator. Below, you can 
-	  find an animation I have created using one of the models I study. The animation shows the time evolution
-	  of two trajectories with equivalent initial conditions. The blue trajectory receives a brief pulse (parameter
-	  perturbation) at a specific phase whereas the red trajectory does not. After the blue trajectory returns
-	  to the limit cycle you can measure the resulting phase (time) delay of the blue trajectory by comparing it
-	  to the red trajectory.
+	  find an animation I have created using the matplotlib library in Python. The animation shows the time evolution
+	  of two trajectories of molecular components of the circadian clock. The trajectories have equivalent 
+	  initial conditions, but the blue trajectory receives a brief pulse (parameter perturbation) at a specific 
+	  phase whereas the red trajectory does not. After the blue trajectory returns to the limit cycle you can 
+	  measure the resulting phase (time) delay of the blue trajectory by comparing it to the red trajectory.
 	  </p>
       <p>
 	  <center><iframe width="420" height="315" src="https://www.youtube.com/embed/VA-7l3Rjvkg" frameborder="0" allowfullscreen></iframe>
@@ -462,13 +462,39 @@ section {
       <hr>
 
       <p>
-	  Below are a few samples resulting from projects I have worked on as a graduate student. The top row of images 
-	  are all related to my work on circadian rhythms. The first image sequence displays results from a circadian 
-	  experiment I designed and conducted on the fungus Neurospora. Bioluminescence shows that the top two fungus 
-	  samples are out of phase with the bottom two samples. The second figure samples perturbation work I have done 
-	  in relation to phase response curves. The third image sequence is an animation that tracks the error of a
-	  phase response curve (against experimental data) when varying four parameters.
+	  Below are a few sample results from projects I have worked on as a graduate student. The top row of images 
+	  are all related to my work on phase response in the circadian clock. The bottom row of images showcases
+	  additional numerical projects I have pursued.
       </p> 
+      
+      <p>
+      	  The first image sequence displays results from a circadian experiment I designed and conducted on the fungus,
+      	  Neurospora using the image processing software ImageJ. Bioluminescence shows that the top two fungus samples 
+      	  are out of phase with the bottom two samples. The second figure is a sample of perturbation work I have done 
+      	  in relation to phase response curves. Assuming a small pulse is applied to a limit cycle oscillator, it is 
+      	  reasonable to use perturbation theory to approximate the PRC with the derivative of the phase with the 
+      	  infinitesimal Phase Response Curve (iPRC). The iPRC is numerically tractable, and can be extremely useful when 
+      	  studying the shape of the PRC. The third image sequence is an animation created in MATLAB that tracks the error 
+      	  of a phase response curve (against experimental data) when varying four parameters involved in the definition of 
+      	  the pulse. The four parameters are represented by space and time, and an isosurface (10% above the minimum error)
+      	  is plotted in green for each set of parameters.
+      </p>
+      
+      <p>
+      	  The first image in the bottom row displays an Arnold Tongue of a model which simulates a circadian clock
+      	  entraining a cell division cycle (master-slave oscillator). Depending on the period of the division cycle 
+      	  (Mass Doubling Time, or MDT) and the strength of the coupling, the division cycle will have a different
+      	  entrained MDT. The region of values causing the division cycle to entrain to the circadian period is known
+      	  as an Arnold Tongue. My code for the Arnold Tongue can be found
+      	  <a href="http://www.comsol.com/model/inkjet-nozzle-level-set-method-1445" target="_blank">here</a>.
+      	  The second image is a two-parameter bifurcation diagram of a circadian clock model. For
+      	  various combinations of the two parameters shown, the limit cycle of the model can experience various periods
+      	  (values in red). The region of oscillation is separated by a boundary of Hopf bifurcation points which cause
+      	  the limit cycle to disappear when crossed. The final image sequence in the bottom row is the result of a sample
+      	  fluid flow problem I have completed using the COMSOL Mutiphysics software platform. The animation shows an ink
+      	  droplet (red) being propelled down an inkjet nozzle and onto paper. The original problem can be found
+      	  <a href="https://github.com/bellmajb/Model4Model6" target="_blank">here</a>.
+      </p>
       
       <hr>
       
@@ -510,7 +536,7 @@ section {
       	<div class="panel panel-default">
           <div class="panel-thumbnail"><a href="#" title="4D Optimization"><img src ="/assets/figures/4D_opt.gif" class="img-responsive"></a></div>
           <div class="panel-body">
-            <p>Phase Response Optimization</p>
+            <p>4D Optimization</p>
             <p></p>
             
           </div>
