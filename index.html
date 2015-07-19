@@ -422,10 +422,10 @@ section {
 	  The main focus of my dissertation is on phase response in a circadian ODE oscillator. Below, you can 
 	  find an animation I have created using the matplotlib library in Python. The animation shows the time 
 	  evolution of two trajectories of molecular components of the circadian clock. The trajectories have 
-	  equivalent initial conditions, but the blue trajectory receives a brief pulse (parameter perturbation) 
-	  at a specific phase late in the limit cycle whereas the red trajectory does not. After the blue trajectory 
-	  returns to the limit cycle you can measure the resulting phase (time) delay of the blue trajectory by 
-	  comparing it to the red trajectory.
+	  equivalent initial conditions, but the blue receives a brief pulse (parameter perturbation) 
+	  at a specific phase late in the limit cycle whereas the red does not. After the blue trajectory 
+	  returns to the limit cycle you can measure the resulting phase (time) delay by comparing it to the 
+	  red.
 	  </p>
       <p>
 	  <center><iframe width="533" height="400" src="https://www.youtube.com/embed/VA-7l3Rjvkg" frameborder="0" allowfullscreen></iframe>
@@ -482,17 +482,18 @@ section {
       
       <p>
       	  The first image in the bottom row displays an Arnold Tongue of a model which simulates a circadian clock
-      	  entraining a cell division cycle (master-slave oscillator). Depending on the uncoupled period of the 
-      	  division cycle (Mass Doubling Time, or MDT) and the strength of the coupling, the division cycle will have 
-      	  a different entrained MDT. The region of values causing the division cycle to entrain to the circadian 
-      	  period is known as an Arnold Tongue. My MATLAB code for calculating the Arnold Tongue can be found
+      	  entraining a cell division cycle (master-slave oscillator). The division cycle will have 
+      	  a different entrained MDT depending on the uncoupled period of the division cycle (Mass Doubling Time, 
+      	  or MDT) and the strength of the coupling. The region of values causing the division cycle to entrain 
+      	  to the circadian period is known as an Arnold Tongue. My MATLAB code for calculating the Arnold Tongue 
+      	  can be found
       	  <a href="https://github.com/bellmajb/Model4Model6" target="_blank">here</a>.
       	  The second image is a two-parameter bifurcation diagram of a circadian clock model. For
       	  various combinations of the two parameters shown, the limit cycle of the model can experience various period
       	  lengths (values in red). The region of oscillation is separated by a boundary of Hopf bifurcation points 
       	  which cause the limit cycle to disappear when crossed. The final image sequence in the bottom row is the 
       	  result of a sample fluid flow problem I have completed using the COMSOL Mutiphysics software platform. 
-      	  The animation shows an ink droplet (red) being propelled down an inkjet nozzle and onto paper. The original
+      	  The animation shows a red ink droplet (red) being propelled down an inkjet nozzle onto paper. The original
       	  problem can be found
       	  <a href="http://www.comsol.com/model/inkjet-nozzle-level-set-method-1445" target="_blank">here</a>.
       </p>
